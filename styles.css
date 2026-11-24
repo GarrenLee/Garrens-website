@@ -125,6 +125,13 @@ h1 span {
   font-weight: 800;
 }
 
+.practice {
+  margin: 0 0 10px;
+  color: #65686d;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .bio {
   max-width: 520px;
   margin: 0;
@@ -173,8 +180,15 @@ h1 span {
   overflow: hidden;
   border: 2.5px solid var(--line);
   border-radius: 46% 46% 28px 28px;
-  background: #bdd4ed;
   box-shadow: 10px 10px 0 var(--line);
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
 }
 
 .sun {
